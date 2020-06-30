@@ -1,19 +1,11 @@
 <template>
   <el-container>
-    <el-row>
-      <el-col :xs="24" :sm="6" :md="6" :lg="5" :xl="4" class="hidden-xs-only">
-        <el-container>
-          <Sider/>
-        </el-container>
-      </el-col>
-      <el-col :xs="24" :sm="18" :md="18" :lg="19" :xl="20">
-        <el-container>
-          <div class="hidden-sm-and-up"><Header/></div>
-          <el-main><router-view/></el-main>
-          <el-footer><Footer/></el-footer>
-        </el-container>
-      </el-col>
-    </el-row>
+    <Sider />
+    <el-container>
+      <el-header height="64px"><Header /></el-header>
+      <el-main><router-view /></el-main>
+      <Footer />
+    </el-container>
   </el-container>
 </template>
 

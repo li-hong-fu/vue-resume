@@ -1,5 +1,5 @@
 <template>
-  <div class="page-sider">
+  <el-aside class="page-sider">
     <div class="user-info">
       <div class="user-avatar">
         <img src="../assets/avatar.jpg" class="user-avatar-png">
@@ -41,7 +41,7 @@
         <span>2019 扎克斯科技 - 前端实习</span>
       </div>
     </div>
-  </div>
+  </el-aside>
 </template>
 
 <style lang="less" scoped>

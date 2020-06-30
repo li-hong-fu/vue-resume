@@ -68,7 +68,7 @@
         <el-timeline>
           <el-timeline-item
             type="success"
-            timestamp="2020.04 ～ 2020.07 扎克斯科技 - 前端开发，负责内部系统及外部业务的前端开发。"
+            timestamp="2019.09 ～ 至今 扎克斯科技 - 前端开发，负责内部系统及外部业务的前端开发。"
             placement="top"
           >
             <el-row :gutter="40">
